@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [TestAll]">
+  <test name="order">
+    <classes>
+      <class name="com.spotqa.Sample"/>
+    </classes>
+  </test> <!-- order -->
+</suite> <!-- Failed suite [TestAll] -->
