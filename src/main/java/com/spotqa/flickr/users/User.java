@@ -4,17 +4,22 @@ public class User {
 
     private String userName;
     private String userPwd;
-    private String appKey;
-    private String appSecret;
-    private String accessToken;
+    private String appKey; //consumerkey in flickr
+    private String appSecret; //consumerSecret in flickr
+    private String accessToken; //accessToken in flickr
+    private String secretToken;
+    private String api_key; //api_key in flickr
 
-    public User(String userName, String userPwd, String appKey, String appSecret, String accessToken) {
-        super();
+    public User(String userName, String userPwd, String appKey,
+                String appSecret, String accessToken, String secretToken, String api_key) {
+        //super();
         this.userName = userName;
         this.userPwd = userPwd;
         this.appKey = appKey;
         this.appSecret = appSecret;
         this.accessToken = accessToken;
+        this.secretToken = secretToken;
+        this.api_key = api_key;
     }
 
     public String getUserName() {
@@ -45,7 +50,7 @@ public class User {
         return appSecret;
     }
 
-    public void setAppSecret(String apiSecret) {
+    public void setAppSecret(String appSecret) {
         this.appSecret = appSecret;
     }
 
@@ -55,6 +60,22 @@ public class User {
 
     public void setAccessToken(String authToken) {
         this.accessToken = authToken;
+    }
+
+    public String getSecretToken() {
+        return secretToken;
+    }
+
+    public void setSecretToken(String secretToken) {
+        this.secretToken = secretToken;
+    }
+
+    public String getApi_key() {
+        return api_key;
+    }
+
+    public void setApi_key(String api_key) {
+        this.api_key = api_key;
     }
 
 }

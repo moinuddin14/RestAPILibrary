@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [TestAll]">
-  <test name="order">
+  <test name="Regression">
     <classes>
-      <class name="com.spotqa.Sample"/>
+      <class name="com.spotqa.flickr.PhotoCommentsTest"/>
     </classes>
-  </test> <!-- order -->
+  </test> <!-- Regression -->
+  <test name="Regression(failed)">
+    <classes>
+      <class name="com.spotqa.flickr.PhotoCommentsTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="addingComment"/>
+        </methods>
+      </class> <!-- com.spotqa.flickr.PhotoCommentsTest -->
+    </classes>
+  </test> <!-- Regression(failed) -->
 </suite> <!-- Failed suite [TestAll] -->

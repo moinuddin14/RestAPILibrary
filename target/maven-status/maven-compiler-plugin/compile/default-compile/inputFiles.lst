@@ -1,2 +1,10 @@
-/Users/s0v0023/GitHub/Restify/src/main/java/com/spotqa/Sample.java
-/Users/s0v0023/GitHub/Restify/src/main/java/com/spotqa/RestUtil.java
+/Users/Khaja/Documents/SpotQA/spotqa-rest/src/main/java/com/spotqa/flickr/utils/RestUtil.java
+/Users/Khaja/Documents/SpotQA/spotqa-rest/src/main/java/com/spotqa/dropbox/config/BaseURI.java
+/Users/Khaja/Documents/SpotQA/spotqa-rest/src/main/java/com/spotqa/dropbox/users/User.java
+/Users/Khaja/Documents/SpotQA/spotqa-rest/src/main/java/com/spotqa/flickr/config/BasePath.java
+/Users/Khaja/Documents/SpotQA/spotqa-rest/src/main/java/com/spotqa/dropbox/utils/RestUtil.java
+/Users/Khaja/Documents/SpotQA/spotqa-rest/src/main/java/com/spotqa/dropbox/config/BasePath.java
+/Users/Khaja/Documents/SpotQA/spotqa-rest/src/main/java/com/spotqa/flickr/users/TestUsers.java
+/Users/Khaja/Documents/SpotQA/spotqa-rest/src/main/java/com/spotqa/flickr/config/BaseURI.java
+/Users/Khaja/Documents/SpotQA/spotqa-rest/src/main/java/com/spotqa/dropbox/users/TestUsers.java
+/Users/Khaja/Documents/SpotQA/spotqa-rest/src/main/java/com/spotqa/flickr/users/User.java

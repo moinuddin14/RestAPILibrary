@@ -1,0 +1,13 @@
+com/spotqa/dropbox/config/BaseURI.class
+com/spotqa/flickr/config/BasePath$Photos.class
+com/spotqa/flickr/config/BaseURI.class
+com/spotqa/dropbox/config/BasePath.class
+com/spotqa/flickr/config/BasePath$Photos$comments.class
+com/spotqa/flickr/config/BasePath.class
+com/spotqa/dropbox/utils/RestUtil.class
+com/spotqa/flickr/config/BasePath$Photos$people.class
+com/spotqa/flickr/utils/RestUtil.class
+com/spotqa/flickr/users/User.class
+com/spotqa/dropbox/users/User.class
+com/spotqa/dropbox/users/TestUsers.class
+com/spotqa/flickr/users/TestUsers.class

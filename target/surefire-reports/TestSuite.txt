@@ -1,4 +1,10 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.232 sec - in TestSuite
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 3.444 sec <<< FAILURE! - in TestSuite
+addingComment(com.spotqa.flickr.PhotoCommentsTest)  Time elapsed: 1.319 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: com/github/scribejava/core/model/AbstractRequest
+	at com.spotqa.flickr.PhotoCommentsTest.addingComment(PhotoCommentsTest.java:21)
+Caused by: java.lang.ClassNotFoundException: com.github.scribejava.core.model.AbstractRequest
+	at com.spotqa.flickr.PhotoCommentsTest.addingComment(PhotoCommentsTest.java:21)
+

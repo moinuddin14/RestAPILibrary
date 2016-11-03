@@ -8,7 +8,7 @@ public class User {
     private String appSecret;
     private String accessToken;
 
-    public User(String userName, String userPwd, String appKey, String appSecret, String accessToken) {
+    public User(String name, String pwd, String userName, String userPwd, String appKey, String appSecret, String accessToken) {
         super();
         this.userName = userName;
         this.userPwd = userPwd;
@@ -56,5 +56,4 @@ public class User {
     public void setAccessToken(String authToken) {
         this.accessToken = authToken;
     }
-
 }
