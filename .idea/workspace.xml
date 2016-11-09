@@ -2,95 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0305b441-952c-4f08-8292-640d53c12639" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/restapi/flickr/Data.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/restapi/dropbox/DeleteFolderTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/restapi/flickr/FlickrData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/restapi/flickr/Paths.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/restapi/flickr/PhotoCommentsTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/restapi/flickr/helpers/ReadConfigFile.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/restapi/flickr/helpers/ReadExcelFile.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/restapi/flickr/helpers/ReadFromCsvFile.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/restapi/flickr/helpers/ReadFromDatabase.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/restapi/flickr/helpers/ReadFromFlatFile.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/restapi/flickr/TestClass.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/restapi/flickr/users/TestUsers.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/config.properties" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/main/com/spotqa/dropbox/config/BasePath.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/main/com/spotqa/dropbox/config/BaseURI.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/main/com/spotqa/dropbox/users/TestUsers.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/main/com/spotqa/dropbox/users/User.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/main/com/spotqa/dropbox/utils/RestUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/main/com/spotqa/flickr/config/BasePath.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/main/com/spotqa/flickr/config/BaseURI.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/main/com/spotqa/flickr/users/TestUsers.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/main/com/spotqa/flickr/users/User.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/main/com/spotqa/flickr/utils/RestUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/test/com/spotqa/dropbox/CreateFolderTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/test/com/spotqa/dropbox/DeleteFolderTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/test/com/spotqa/flickr/PhotoCommentsTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/spotqa/flickr/users/TestUsers.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/main.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/spotqa/dropbox/DeleteFolderTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/spotqa/flickr/PhotoCommentsTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/spotqa/dropbox/config/BasePath.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/spotqa/dropbox/config/BaseURI.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/spotqa/dropbox/users/TestUsers.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/spotqa/dropbox/users/User.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/spotqa/dropbox/utils/RestUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/spotqa/flickr/config/BasePath$Photos$comments.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/spotqa/flickr/config/BasePath$Photos$people.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/spotqa/flickr/config/BasePath$Photos.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/spotqa/flickr/config/BasePath.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/spotqa/flickr/config/BaseURI.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/spotqa/flickr/users/TestUsers.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/spotqa/flickr/users/User.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/spotqa/flickr/utils/RestUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TestAll/order.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TestAll/order.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.spotqa.Sample.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.spotqa.dropbox.CreateFolderTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.spotqa.flickr.PhotoCommentsTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/TestAll/order.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/spotqa/dropbox/CreateFolderTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/spotqa/dropbox/DeleteFolderTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/spotqa/flickr/PhotoCommentsTest.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/spotqa/dropbox/config/BasePath.java" afterPath="$PROJECT_DIR$/src/main/java/com/restapi/dropbox/config/BasePath.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/spotqa/dropbox/config/BaseURI.java" afterPath="$PROJECT_DIR$/src/main/java/com/restapi/dropbox/config/BaseURI.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/spotqa/dropbox/users/TestUsers.java" afterPath="$PROJECT_DIR$/src/main/java/com/restapi/dropbox/users/TestUsers.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/spotqa/dropbox/users/User.java" afterPath="$PROJECT_DIR$/src/main/java/com/restapi/dropbox/users/User.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/spotqa/dropbox/utils/RestUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/restapi/dropbox/utils/RestUtil.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/spotqa/flickr/config/BasePath.java" afterPath="$PROJECT_DIR$/src/main/java/com/restapi/flickr/config/BasePath.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/spotqa/flickr/config/BaseURI.java" afterPath="$PROJECT_DIR$/src/main/java/com/restapi/flickr/config/BaseURI.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/spotqa/flickr/users/User.java" afterPath="$PROJECT_DIR$/src/main/java/com/restapi/flickr/users/User.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/spotqa/flickr/utils/RestUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/restapi/flickr/utils/RestUtil.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/spotqa/dropbox/CreateFolderTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/restapi/dropbox/CreateFolderTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TestAll/Regression.html" afterPath="$PROJECT_DIR$/target/surefire-reports/TestAll/Regression.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TestAll/Regression.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TestAll/Regression.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Restify.iml" afterPath="$PROJECT_DIR$/Restify.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/old/TestAll/classes.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/TestAll/classes.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/old/TestAll/methods-alphabetical.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/TestAll/methods-alphabetical.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/old/TestAll/methods.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/TestAll/methods.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/test.iml" afterPath="$PROJECT_DIR$/src/test/test.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TestAll/testng-failed.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TestAll/testng-failed.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/old/TestAll/testng.xml.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/TestAll/testng.xml.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testng.xml" afterPath="$PROJECT_DIR$/testng.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/old/TestAll/toc.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/TestAll/toc.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="Restify.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -941,7 +853,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
