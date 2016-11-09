@@ -1,3 +1,4 @@
-/Users/Khaja/Documents/SpotQA/spotqa-rest/src/test/java/com/spotqa/dropbox/CreateFolderTest.java
-/Users/Khaja/Documents/SpotQA/spotqa-rest/src/test/java/com/spotqa/dropbox/DeleteFolderTest.java
-/Users/Khaja/Documents/SpotQA/spotqa-rest/src/test/java/com/spotqa/flickr/PhotoCommentsTest.java
+/Users/Khaja/Documents/SpotQA/Rest-API-Library/src/test/java/com/restapi/flickr/TestClass.java
+/Users/Khaja/Documents/SpotQA/Rest-API-Library/src/test/java/com/restapi/dropbox/DeleteFolderTest.java
+/Users/Khaja/Documents/SpotQA/Rest-API-Library/src/test/java/com/restapi/dropbox/CreateFolderTest.java
+/Users/Khaja/Documents/SpotQA/Rest-API-Library/src/test/java/com/restapi/flickr/PhotoCommentsTest.java

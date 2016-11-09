@@ -3,17 +3,18 @@
 <suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [TestAll]">
   <test name="Regression">
     <classes>
-      <class name="com.spotqa.flickr.PhotoCommentsTest"/>
+      <class name="com.restapi.flickr.PhotoCommentsTest"/>
     </classes>
   </test> <!-- Regression -->
   <test name="Regression(failed)">
     <classes>
-      <class name="com.spotqa.flickr.PhotoCommentsTest">
+      <class name="com.restapi.flickr.PhotoCommentsTest">
         <methods>
+          <include name="addingSkipComment"/>
+          <include name="addingWrongComment"/>
           <include name="setUp"/>
-          <include name="addingComment"/>
         </methods>
-      </class> <!-- com.spotqa.flickr.PhotoCommentsTest -->
+      </class> <!-- com.restapi.flickr.PhotoCommentsTest -->
     </classes>
   </test> <!-- Regression(failed) -->
 </suite> <!-- Failed suite [TestAll] -->

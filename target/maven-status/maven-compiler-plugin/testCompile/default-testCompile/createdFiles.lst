@@ -1,3 +1,7 @@
-com/spotqa/dropbox/CreateFolderTest.class
-com/spotqa/flickr/PhotoCommentsTest.class
-com/spotqa/dropbox/DeleteFolderTest.class
+com/restapi/flickr/FlickrData.class
+com/restapi/flickr/PhotoCommentsTest.class
+com/restapi/flickr/Data.class
+com/restapi/dropbox/CreateFolderTest.class
+com/restapi/dropbox/DeleteFolderTest.class
+com/restapi/flickr/Paths.class
+com/restapi/flickr/TestClass.class

@@ -1,23 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="3.444" tests="1" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="6.41" tests="3" errors="0" skipped="1" failures="1">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib"/>
     <property name="java.vm.version" value="25.51-b03"/>
     <property name="gopherProxySet" value="false"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="/Users/Khaja/Documents/SpotQA/spotqa-rest"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/Khaja/Documents/SpotQA/Rest-API-Library"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=":"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="env" value="Prod"/>
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/Users/Khaja/Documents/SpotQA/spotqa-rest"/>
+    <property name="user.dir" value="/Users/Khaja/Documents/SpotQA/Rest-API-Library"/>
     <property name="java.runtime.version" value="1.8.0_51-b16"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/endorsed"/>
@@ -44,7 +43,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -Denv=Prod"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -62,15 +61,18 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="addingComment" classname="com.spotqa.flickr.PhotoCommentsTest" time="1.319">
-    <failure message="com/github/scribejava/core/model/AbstractRequest" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: com/github/scribejava/core/model/AbstractRequest
-	at com.spotqa.flickr.PhotoCommentsTest.addingComment(PhotoCommentsTest.java:21)
-Caused by: java.lang.ClassNotFoundException: com.github.scribejava.core.model.AbstractRequest
-	at com.spotqa.flickr.PhotoCommentsTest.addingComment(PhotoCommentsTest.java:21)
+  <testcase name="addingComment" classname="com.restapi.flickr.PhotoCommentsTest" time="4.061"/>
+  <testcase name="addingSkipComment" classname="com.restapi.flickr.PhotoCommentsTest" time="0">
+    <skipped message="Skipping this exception"/>
+    <system-out><![CDATA[This Test Case Will Be Skipped!
+]]></system-out>
+  </testcase>
+  <testcase name="addingWrongComment" classname="com.restapi.flickr.PhotoCommentsTest" time="0.681">
+    <failure message="expected [moinuddinbtech] but found [Welcome to restapi!]" type="java.lang.AssertionError">java.lang.AssertionError: expected [moinuddinbtech] but found [Welcome to restapi!]
+	at com.restapi.flickr.PhotoCommentsTest.addingWrongComment(PhotoCommentsTest.java:61)
 </failure>
-    <system-out><![CDATA[Inside Before Class!
-72157675710850186-683b6d39d595c2fd
-https://api.flickr.com/services/rest
+    <system-out><![CDATA[{"comment":{"id":"40235299-29961687633-72157672611490543","author":"142944010@N03","authorname":"moinuddinbtech","datecreate":"1478515890","permalink":"https:\/\/www.flickr.com\/photos\/40280621@N06\/29961687633\/#comment72157672611490543","path_alias":null,"realname":"Khaja Moinuddin Mohammed","_content":"Welcome to restapi!"},"stat":"ok"}
+The comment is updated by --- moinuddinbtech
 ]]></system-out>
   </testcase>
 </testsuite>
